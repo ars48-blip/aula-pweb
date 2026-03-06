@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek Arena - Torneio de E-Sports</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Geek Arena - Torneio de E-Sports 2026</h1>
+        <nav>
+            <a href="#tabela">Ver Partidas</a> |
+            <a href="#formulario">Inscrição de Equipe</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section id="tabela">
+        <h2>Cronograma de Partidas</h2>
+
+        <table border="1">
+            <caption>Horários e Vagas do Campeonato</caption>
+
+            <thead>
+                <tr>
+                    <th>Data/Horário</th>
+                    <th>Jogo</th>
+                    <th>Vagas Totais</th>
+                    <th>Vagas Preenchidas</th>
+                    <th>Regras</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>10/03/2026 - 14:00</td>
+                    <td>League of Legends</td>
+                    <td>8</td>
+                    <td>5</td>
+                    <td><a href="detalhes.html">Ver Regras</a></td>
+                </tr>
+
+                <tr>
+                    <td>11/03/2026 - 16:00</td>
+                    <td>Valorant</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td><a href="detalhes.html">Ver Regras</a></td>
+                </tr>
+
+                <tr>
+                    <td>12/03/2026 - 18:00</td>
+                    <td>CS 2</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td><a href="detalhes.html">Ver Regras</a></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2"><strong>Total Geral</strong></td>
+                    <td><strong>24</strong></td>
+                    <td><strong>16</strong></td>
+                    <td>-</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="formulario">
+        <h2>Cadastro de Equipe</h2>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Dados do Capitão</legend>
+
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="idade">Idade:</label><br>
+                <input type="number" id="idade" name="idade" min="12" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informações da Equipe</legend>
+
+                <label for="jogo">Escolha o Jogo:</label><br>
+                <select id="jogo" name="jogo" required>
+                    
+                    <optgroup label="FPS">
+                        <option value="valorant">Valorant</option>
+                        <option value="cs2">CS 2</option>
+                    </optgroup>
+
+                    <optgroup label="MOBA">
+                        <option value="lol">League of Legends</option>
+                    </optgroup>
+
+                </select>
+                <br><br>
+
+                <label for="observacoes">Observações:</label><br>
+                <textarea id="observacoes" name="observacoes" rows="4" cols="40" placeholder="Digite aqui sua motivaçã"></textarea>
+                <br><br>
+
+                <button type="submit">Enviar Inscrição</button>
+            </fieldset>
+
+        </form>
+    </section>
+
+    <hr>
+
+
+    <footer>
+        <p>© 2026 Geek Arena - Todos os direitos reservados.</p>
+        <p>Desenvolvido por AnnyCristiny</p>
+        <p>Contato: ars48@aluno.ifal.edu.br</p>
+    </footer>
+
+</body>
+</html>
+
+ 
