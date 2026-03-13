@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Missão Oscar 2026</title>
+</head>
+
+<body>
+
+<header>
+<h1>Missão Oscar 2026</h1>
+
+<nav>
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="indicados.html">Indicados</a></li>
+<li><a href="analise.html">Análise</a></li>
+<li><a href="bolao.html">Bolão</a></li>
+</ul>
+</nav>
+
+</header>
+
+<section>
+
+<h2>Oscar 2026</h2>
+
+<p>
+A cerimônia do Oscar 2026 acontecerá no Dolby Theatre em Los Angeles no dia 
+<time datetime="2026-03-15">15 de março de 2026</time>. 
+A premiação é considerada a mais importante do cinema mundial.
+</p>
+
+</section>
+
+<article>
+
+<h2>O Agente Secreto</h2>
+
+<p>
+O filme brasileiro "O Agente Secreto" acompanha uma história de espionagem cheia de mistérios.
+O longa marca o retorno de Wagner Moura ao protagonismo internacional e representa o orgulho do 
+<mark>Brasil</mark> na disputa por <mark>Melhor Filme</mark>.
+</p>
+
+</article>
+
+<aside>
+
+<h3>Apresentadores Confirmados</h3>
+
+<ul>
+<li>Zendaya</li>
+<li>Robert Downey Jr.</li>
+<li>Emma Stone</li>
+</ul>
+
+</aside>
+
+<blockquote>
+"Um dos filmes mais eletrizantes do cinema recente."
+<cite>Revista Variety</cite>
+</blockquote>
+
+<footer>
+
+<p>&copy; Portal Oscar 2026</p>
+
+<p>
+Data da cerimônia:
+<time datetime="2026-03-15">15 de março de 2026</time>
+</p>
+
+<address>
+Contato:
+<a href="mailto:contato@oscar2026.com">contato@oscar2026.com</a>
+</address>
+
+</footer>
+
+</body>
+</html>
